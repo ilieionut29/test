@@ -1,0 +1,53 @@
+html {
+  body {
+    font-family: $font-light;
+  }
+
+  p {
+    font-family: $font-light, sans-serif;
+    font-weight: 400;
+  }
+
+  h1, h2 {
+    font-family: $font-light;
+    color: $brand-darkgray;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  h1 {
+    font-size: $display-size;
+    font-family: $font-bold;
+    font-weight: 700;
+  }
+ 
+  a {
+    text-decoration: none; 
+    &:focus {
+      text-decoration: none;
+    }
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+.brand-yellow {
+  color: $brand-yellow;
+}
+.brand-blue {
+  color: $brand-blue;
+}
+.brand-pink {
+  color: $brand-pink;
+}
+.brand-red {
+  color: $brand-red;
+}
+.brand-gray {
+  color: $brand-darkgray;
+}
+

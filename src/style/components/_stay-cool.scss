@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+
+.container-staycool {
+  height: 40vmin;
+  position: relative;
+  width: 40vmin;
+  width: calc((112.748 / 241.22) * 40vmin);
+}
+
+.char {
+  --delay:calc(((var(--char-total) - var(--char-index))) - var(--word-index));
+  offset-path: path(var(--path));
+  -webkit-animation: travel 6s calc((var(--delay) * (0.15)) * -1s) infinite linear both;
+  animation: travel 6s calc((var(--delay) * (0.15)) * -1s) infinite linear both;
+  offset-rotate: auto 180deg;
+  position: absolute !important;
+  font-size: 4vmin;
+  font-weight: bold;
+  top: 0%;
+  left: 0%;
+  -webkit-transform: translate(0, -2.5vmin);
+  transform: translate(0, -2.5vmin);
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+path {
+  stroke: #111;
+  stroke-width: 2.5px;
+  fill: rgba(0, 64, 255, 0.25);
+  fill: url("#popsicle-gradient");
+}
+
+.gradient {
+  height: 0;
+  width: 0;
+}
+
+@-webkit-keyframes travel {
+  from {
+    offset-distance: 0%;
+  }
+
+  to {
+    offset-distance: 100%;
+  }
+}
+
+@keyframes travel {
+  from {
+    offset-distance: 0%;
+  }
+
+  to {
+    offset-distance: 100%;
+  }
+}

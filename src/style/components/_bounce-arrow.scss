@@ -1,0 +1,14 @@
+.arrow {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	img {
+		height: 28px;
+		width: auto;
+		margin: 0px 0 0 -40px;
+		line-height: 60px;
+		position: fixed;
+		right: 3vh; //Please change!!!!! to varuiable 
+		bottom: 2vh; //Change 
+	}
+}

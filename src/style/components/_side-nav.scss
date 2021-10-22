@@ -1,0 +1,46 @@
+.sideNav{
+	position: fixed;
+	bottom: 0;
+	margin: 12px;
+}
+
+.sideNav-button {
+	padding: 10px 0;
+	background-color: #00000000;
+	border: none;
+	
+	img {
+		opacity: 0.7;
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	&:hover {
+		.sub-menu {
+			pointer-events: all;
+			animation-name: fadeInDown;
+			animation-duration: 500ms;
+			animation-fill-mode: both;	
+		}
+	}
+}
+.logo-text {
+	h4 {
+		font-size: 1.5em;
+		text-orientation: upright;
+		writing-mode: vertical-lr;
+		margin: 10px 8px;
+	}
+}
+.modal-dialog {
+  background-color: $brand-blue;
+	height: 100vh;
+  margin: 0px;
+}
+.modal-content{
+	background-color: $brand-blue;
+	border: none;
+}
+
+ 

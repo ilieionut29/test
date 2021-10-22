@@ -1,0 +1,20 @@
+@import "./variables";
+@import "./globals";
+@import "./keyframes";
+@import "./animations";
+@import "./mixins";
+
+
+@import "./pages/home.scss";
+@import "./pages/services.scss";
+
+@import "./components/bounce-arrow";
+@import "./components/footer";
+@import "./components/menu-bar";
+@import "./components/page-transition";
+@import "./components/side-nav";
+@import "./components/card-preview";
+@import "./components/works-grid";
+@import "./components/stay-cool";
+
+
